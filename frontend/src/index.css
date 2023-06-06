@@ -1,0 +1,299 @@
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+label {
+  display: block;
+  margin: 0.5rem 0;
+}  
+
+a{
+  color: white;
+}
+
+.page_link{
+  color:#282c34;
+}
+
+.App-header {
+  background-color: linear-gradient(360deg, transparent, #282c34);
+  min-height: 5vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: linear-gradient(360deg, transparent, #282c34);
+  margin-top: 15px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.75;
+
+}
+.toolbar {
+  background-color: #282c34;
+}
+p {
+  text-align: center;
+}
+
+/* Form Center Home Page */
+.form-center{
+  justify-content: center;
+  display: block;
+}
+
+.text{
+  font-size: 30px;
+  color: #c7c7c7;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+ 
+/* Login & Signup Page */
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+body{
+  display: block;
+  height: 100vh;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background: #151515;
+  margin-top: 10%;
+  
+}
+.login-form{
+  position: relative;
+  width: 370px;
+  height: auto;
+  background: #1b1b1b;
+  padding: 40px 35px 60px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: inset 0 0 1px #272727;
+}
+.text{
+  font-size: 30px;
+  color: #c7c7c7;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+form{
+  margin-top: 40px;
+}
+form .field{
+  margin-top: 20px;
+  display: flex;
+}
+.field .fas{
+  height: 50px;
+  width: 60px;
+  color: #868686;
+  font-size: 20px;
+  line-height: 50px;
+  border: 1px solid #444;
+  border-right: none;
+  border-radius: 5px 0 0 5px;
+  background: linear-gradient(#333,#222);
+}
+.field input,form button{
+  height: 50px;
+  width: 100%;
+  outline: none;
+  font-size: 19px;
+  color: #868686;
+  padding: 0 15px;
+  border-radius: 0 5px 5px 0;
+  border: 1px solid #444;
+  caret-color: #339933;
+  background: linear-gradient(#333,#222);
+}
+input:focus{
+  color: #339933;
+  box-shadow: 0 0 5px rgba(0,255,0,.2),
+              inset 0 0 5px rgba(0,255,0,.1);
+  background: linear-gradient(#333933,#222922);
+  animation: glow .8s ease-out infinite alternate;
+}
+@keyframes glow {
+   0%{
+    border-color: #339933;
+    box-shadow: 0 0 5px rgba(0,255,0,.2),
+                inset 0 0 5px rgba(0,0,0,.1);
+  }
+   100%{
+    border-color: #6f6;
+    box-shadow: 0 0 20px rgba(0,255,0,.6),
+                inset 0 0 10px rgba(0,255,0,.4);
+  }
+}
+button{
+  margin-top: 30px;
+  border-radius: 5px!important;
+  font-weight: 600;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+button:hover{
+  color: #339933;
+  border: 1px solid #339933;
+  box-shadow: 0 0 5px rgba(0,255,0,.3),
+              0 0 10px rgba(0,255,0,.2),
+              0 0 15px rgba(0,255,0,.1),
+              0 2px 0 black;
+}
+.link{
+  margin-top: 25px;
+  color: #868686;
+}
+.link a{
+  color: #339933;
+  text-decoration: none;
+}
+.link a:hover{
+  text-decoration: underline;
+}
+
+.header{
+  position: absolute; 
+  top: 0;
+  width:50%; 
+  padding: 0;
+  width: 100%;
+
+
+}
+
+@media (min-width: 640px) { body {margin-top:10%;} }
+@media (min-width: 960px) { body {margin-top:10%;} }
+@media (min-width: 1100px) { body {margin-top:10%;} }
+
+.error{
+  color: red;
+}
+
+.infos {
+    color: #fff;
+    padding: 10px 15px;
+    gap: 15px;
+    transition: all 0.5s;
+}
+
+.infos a {
+  color: #339933;
+}
+
+.logout_button {
+  position: absolute;
+  top: 70px;
+  right: 10px;
+
+}
+
+.status-container {
+  display: inline-block;
+}
+
+.status-item {
+  display: inline-block;
+  width: calc(50% - 10px); /* 50% width minus half of the gap */
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+label {
+  display: block;
+  margin: 0.5rem 0;
+}  
+
+a{
+  color: white;
+}
+
+.page_link{
+  color:#282c34;
+}
+
+.App-header {
+  background-color: linear-gradient(360deg, transparent, #282c34);
+  min-height: 5vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: linear-gradient(360deg, transparent, #282c34);
+  margin-top: 15px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.75;
+
+}
+.toolbar {
+  background-color: #282c34;
+}
+p {
+  text-align: center;
+}
+
+body {
+  overflow-x: hidden;  
+  overflow-y: hidden;  
+  align-items: flex-start;
+}
+
+
+
+.dropdown {
+  width: 200px;
+  height: 30px;
+  padding: 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #333;
+}
+
+#chart {
+  color: white;
+}
+
+.charts-container {
+  display: flex;
+  justify-content: center;
+}
+
+.chart-container {
+  margin: 0 10px;
+}
+
+
+/* .visualization-wrapper {
+  background-color: black;
+  opacity: 1.5;
+
+} */
+
+.homep{
+  font-weight: bold;
+  color: white;
+  font-size: 30px;
+
+}

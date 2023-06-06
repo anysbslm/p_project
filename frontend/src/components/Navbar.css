@@ -1,0 +1,63 @@
+label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }  
+  
+  a{
+    color: white;
+  }
+  
+  .page_link{
+    color:#282c34;
+  }
+  
+  .App-header {
+    background-color: linear-gradient(360deg, transparent, #282c34);
+    min-height: 5vh;
+    display: flex;
+    flex-direction: column;
+    font-size: calc(10px + 2vmin);
+    color: linear-gradient(360deg, transparent, #282c34);
+    margin-top: 15px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.75;
+  }
+  .toolbar {
+    background-color: #282c34;
+  }
+  p {
+    text-align: center;
+    color: #000;
+  }
+  
+  .form-center{
+    justify-content: center;
+    display: block;
+  }
+
+  .text{
+    font-size: 30px;
+    color: #c7c7c7;
+    font-weight: 600;
+    letter-spacing: 2px;
+  }
+  
+  span {
+    margin-left: 10px;
+  }
+
+  .header {
+    cursor: none;
+  }
